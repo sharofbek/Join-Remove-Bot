@@ -18,6 +18,9 @@ bot.on('message', (msg) => {
     bot.deleteMessage(chatId, msg.message_id);
   }
 });
+bot.on('message' ,(msg) => {
+    
+})
 
 
 
