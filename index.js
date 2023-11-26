@@ -14,6 +14,13 @@ bot.on('message', (msg) => {
     });
   } else if (msg.left_chat_member) {
     // Chiqqan a'zo guruhdan chiqqanda
+    //Ishlaydi
     bot.deleteMessage(chatId, msg.message_id);
   }
 });
+
+
+
+//Bu bot Xadjimatov.dev tomonida yaratildi 
+
+
